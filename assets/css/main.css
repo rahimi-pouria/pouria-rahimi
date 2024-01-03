@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../img/back.png');
+    background-repeat: no-repeat;   
+    direction: rtl;
+    background-attachment: fixed;
+}
+/* responsive */
+@media (min-width: 1280px){
+}
